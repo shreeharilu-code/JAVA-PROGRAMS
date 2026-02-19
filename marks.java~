@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class marks{
+  public static void main( String args[]){
+    Scanner sc=new Scanner(System.in);
+    int a=sc.nextInt();
+    if(a>90)
+      System.out.println("grade a");
+    else if(a>75)
+      System.out.println("grade b");
+    else if(a>60)
+      System.out.println("grade c");
+    else if(a>40)
+      System.out.println("grade d");
+    else
+      System.out.println("fail");
+  }
+}
+    
+  
