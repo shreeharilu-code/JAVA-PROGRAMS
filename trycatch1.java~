@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class trycatch1{
+  public static void main(String[]args){
+  Scanner s=new Scanner(System.in);
+  try
+  {
+ Int age=s.nextInt();
+if(age<18)
+{
+  throw new Exception("you are not eligible");
+  }
+  else
+  {
+    System.out.println("eligible for vote");
+  }
+  catch(Exception e){
+    System.out.println("exception has occured");
+  }
+}
+}
