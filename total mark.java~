@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class User {
+  
+  
+  public static void main(String[] args) { 
+    String name,dept;
+    int m1,m2,m3,m4,m5,rollno,tot;
+    System.out.printin("enter your name:");
+    System.out.printin("enter your dept:");
+    System.out.printin("enter your rollno:");
+    System.out.printin("enter your m1:");
+    System.out.printin("enter your m2:");
+    System.out.printin("enter your m3:");
+    System.out.printin("enter your m4:");
+    System.out.printin("enter your m5:");
+    System.out.printin("enter your tot:");
+    Scanner s=new Scanner(System.in);
+    {
+    name=s.next();
+    dept=s.next();
+    rollno=s.nextInt();
+    m1=s.nextInt();
+    m2=s.nextInt();
+    m3=s.nextInt();
+    m4=s.nextInt();
+    m5=s.nextInt();
+    }
+    tot=m1+m2+m3+m4+m5;
+    System.out.println("tot:"+tot);
+    
+  }
+  
+  
+}
